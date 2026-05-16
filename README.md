@@ -36,18 +36,16 @@ citing page numbers and refusing to hallucinate when context is insufficient.
 ---
 
 ## Repository Structure
-beca18-rag-chatbot/
-│
-├── data/
-│   └── beca18_reglamento.pdf          # Source document (not committed)
-│
-├── notebooks/
-│   └── beca18_rag_chatbot.ipynb       # Main notebook
-│
-├── .env.example                       # API key template
-├── .gitignore                         # Excludes .env and chroma_db_*/
-├── requirements.txt
-└── README.md
+
+    beca18-rag-chatbot/
+    ├── data/
+    │   └── beca18_reglamento.pdf
+    ├── notebooks/
+    │   └── beca18_rag_chatbot.ipynb
+    ├── .env.example
+    ├── .gitignore
+    ├── requirements.txt
+    └── README.md
 ---
 
 ## Installation and Setup
